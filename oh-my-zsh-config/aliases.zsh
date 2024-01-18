@@ -3,10 +3,10 @@
 # ALIASES
 
 # aliases for active-witness
-alias goto-aw-frontend='echo "📱 active-witness/frontend"; cd ~/Code/active-witness/frontend'
-alias goto-aw-website='echo "🕸 active-witnes/wbsite"; cd ~/Code/active-witness/website'
-alias start-aw-frontend='echo "📱 starting active-witness/frontend"; cd ~/Code/active-witness/frontend; yarn start'
-alias start-aw-website='echo "📱 starting active-witness/website"; cd ~/Code/active-witness/website; yarn start'
+alias goto-aw-frontend='echo "📱 activewitness/frontend"; cd ~/code/activewitness/frontend'
+alias goto-aw-website='echo "🕸 activewitness/website"; cd ~/code/activewitness/website'
+alias start-aw-frontend='echo "📱 starting activewitness/frontend"; cd ~/code/activewitness/frontend; yarn start'
+alias start-aw-website='echo "📱 starting activewitness/website"; cd ~/code/activewitness/website; yarn start'
 
 # aliases for cd
 alias bin='echo "📂 /usr/local/bin"; cd /usr/local/bin'
@@ -29,6 +29,10 @@ alias lsla='ls -l -a'
 
 # aliases for open
 alias o='open'
+
+# aliases for pet-stop-mobile
+alias goto-pet-stop-mobile='echo "📱 pet-stop-mobile"; cd ~/code/pet-stop-mobile'
+alias start-pet-stop-mobile='echo "📱 pet-stop-mobile"; cd ~/code/pet-stop-mobile; yarn start'
 
 # alias for ascii Star Wars: A New Hope
 alias ascii-star-wars='telnet Towel.blinkenlights.nl'

@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/rohitghosh/.oh-my-zsh"
+export ZSH="/Users/rohit/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -102,6 +102,8 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+export AWS_PROFILE=active-witness
+
 #Kanye's Blessing
 local quote=$(kanye.rest)
 echo -e "\n\n"
@@ -110,3 +112,9 @@ echo -e "A wise man once said..."
 echo -e "\e[36m$quote"
 echo -e "\n\n"
 
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export PATH="$PATH:~/code/fulcrum/falms-vm/bin"
